@@ -14,9 +14,10 @@ public class DIO {
       int entrada = input.nextInt();
       if(entrada % 2 == 0) {
         System.out.println("0");
-      }else {
-          			System.out.println("1");
-         		 }
-      		}
-   	}
+      } else {
+        System.out.println("1");
+        }
+    }
+  }
 }
+>>>
