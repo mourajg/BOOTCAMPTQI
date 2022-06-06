@@ -10,7 +10,7 @@ import java.util.*;
 
 public class DIO {
 	public static void main(String[] args) throws IOException {
-		while(input.hasNext()){
+		while(input.hasNext()) {
         		int entrada = input.nextInt();
         		if(entrada % 2 == 0) {
           			System.out.println("0");
