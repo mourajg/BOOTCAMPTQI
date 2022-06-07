@@ -3,13 +3,11 @@
 esfirras, ele só sabe dar o troco com duas notas, ou seja, nem sempre é possível receber o troco
 certo. Para facilitar para ele, escreva um programa para determinar se é possível ou não devolver
 o troco exato utilizando duas notas.
-
 Notas disponíveis: 2, 5, 10, 20, 50 e 100.
 */
 
 import java.io.IOException;
 import java.util.Scanner;
-
 public class DIO {
 	public static void main(String[] args) throws IOException {
 		Scanner leitor = new Scanner(System.in);
