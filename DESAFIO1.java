@@ -1,8 +1,8 @@
 >>>
 /* O objetivo deste desafio é resolvê-lo utilizando o seu conhecimento sobre Arrays, uma estrutura
-de dados que armazena uma coleção de dados em um bloco de memória.
-Faça um programa para ler um número N (idade de N pessoas). Depois disso, coloque qual idade será
-considerada mínima para se entrar no local. Retorne às idades de quem não puder entrar.
+de dados que armazena uma coleção de dados em um bloco de memória. Faça um programa para ler um número
+N (idade de N pessoas). Depois disso, coloque qual idade será considerada mínima para se entrar no 
+local. Retorne às idades de quem não puder entrar.
 */
 
 import java.util.*;
