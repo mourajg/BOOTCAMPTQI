@@ -16,7 +16,7 @@ public class DIO {
 			string = scan.nextLine();
 			idade[i] = Integer.parseInt(string);
 		}
-		System.out.println("Não poderão entrar: "); /* Atenção aqui! Coloquei acento para ficar bem redigido, no seu código os acentos deverão sumir. */
+		System.out.println("Não poderão entrar: "); /* Atenção aqui! */
 		for (int i = 0; i < N; i++) {
 			if(idade[i] < 18) {
 				System.out.println((int) idade[i]);
