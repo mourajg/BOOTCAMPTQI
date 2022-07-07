@@ -11,9 +11,12 @@ public class DIO {
 			int [] notas = {2, 5, 10, 20, 50, 100};
 			boolean possivel = false;
 			if (N == 0 && M == 0) break;
-			for (int i = 0; i < 6; i ++) {
-				for (int j = 0; j < 6; j ++) {
-					if (troco - notas [j] == notas [i]) possivel = true;
+			for (int i = 0; i < 6; i++) {
+				for (int j = 0; j < 6; j++) {
+					if (troco - notas [j] == notas [i]) {
+						possivel = true;
+					} else {
+					}
 				}
 			}
 			if (possivel) System.out.println ("possible");
