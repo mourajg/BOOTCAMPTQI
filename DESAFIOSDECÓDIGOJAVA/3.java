@@ -9,7 +9,7 @@ public class DIO {
 		double y2 = entrada.nextDouble ();
 		double content = ((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1));
 		double distance = Math.sqrt (content);
-		System.out.printf ("%.4f\n", distance);
+		System.out.printf (distance);
 	}
 }
 >>>
