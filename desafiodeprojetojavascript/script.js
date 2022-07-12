@@ -20,7 +20,7 @@ function flipCard () {
 function checkForMath () {
 	if (firstCard.dataset.card === secondCard.dataset.card) {
 		disableCards ();
-		return; 
+		return;
 	}
 	unflipCards ();
 }
